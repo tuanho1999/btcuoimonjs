@@ -1,0 +1,81 @@
+body {
+    padding-left: 300px;
+    padding-right: 350px;
+}
+
+.container {
+    border: 1px solid;
+    background: rgb(63, 193, 178);
+    background: linear-gradient(180deg, rgba(63, 193, 178, 1) 0%, rgba(25, 91, 87, 1) 100%);
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.container h3 {
+    padding-left: 300px;
+    margin-bottom: 20px;
+}
+
+.container .row_item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container .row_item label {
+    width: 150px;
+    padding-left: 20px;
+}
+
+#tblData {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 700px;
+}
+
+#tblData thead th,
+#tblData tbody td {
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+}
+
+
+input {
+    width: 600px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: aliceblue;
+}
+
+#btnAdd {
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+#btnClear {
+    width: 350px;        
+    height: 40px;
+    cursor: pointer;
+}
+
+#btnAdd:hover,
+#btnClear:hover {
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+
+#btnAdd:active,
+#btnClear:active {
+    border: none;
+    width: 340px;
+    height: 35px;
+    box-shadow: 1px 1px black;
+}
+.fa-trash, .fa-pencil-square-o{
+    cursor: pointer;
+}
